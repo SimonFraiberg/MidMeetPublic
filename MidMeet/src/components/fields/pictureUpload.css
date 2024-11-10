@@ -1,0 +1,21 @@
+.upload-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #ddd;
+}
+
+.upload-preview.is-valid {
+  border: 2px solid #198754; /* Bootstrap success color */
+  border-radius: 50%;
+}
+.upload-preview.is-invalid {
+  border: 2px solid #dc3545; /* Bootstrap danger color */
+  border-radius: 50%;
+}
+
+.invalid-feedback {
+  color: #dc3545; /* Use Bootstrap's danger color */
+  margin-top: 5px;
+}

@@ -1,0 +1,22 @@
+//custom variables
+$primary: #ebcbae;
+$nav-link-font-size: 16px;
+$nav-link-font-weight: bold;
+$nav-link-color: black;
+$nav-link-hover-color: #582c03;
+$nav-link-disabled-color: grey;
+$nav-tabs-border-color: #582c03;
+$nav-tabs-border-width: 10px;
+$nav-tabs-border-radius: 100px;
+$nav-tabs-link-hover-border-color: #582c03;
+
+//NAVBAR
+$navbar-dark-color: #582c03;
+$navbar-dark-hover-color: #582c03;
+$navbar-dark-active-color: white;
+$navbar-dark-disabled-color: #582c03;
+$navbar-dark-icon-color: white;
+$navbar-dark-brand-color: black;
+$navbar-dark-brand-hover-color: black;
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

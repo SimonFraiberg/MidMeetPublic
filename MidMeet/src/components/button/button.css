@@ -1,0 +1,49 @@
+.fileButton {
+  background-color: #f2cead;
+  stroke-width: 2px;
+  stroke: #d27856;
+  width: 25%;
+  height: 50px;
+  color: #865b51;
+  font-family: B612;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 100px;
+  border: 3px solid #865b51;
+  text-align: center;
+}
+
+.addMeetingButton {
+  background-color: #f2cead;
+  stroke-width: 2px;
+  stroke: #d27856;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  font-family: B612;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px solid #f09f54;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.bottomRight {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
+  bottom: 5%;
+  margin-top: 10px;
+}
+
+.bottomLeft {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 5%;
+  bottom: 5%;
+  margin-top: 10px;
+}

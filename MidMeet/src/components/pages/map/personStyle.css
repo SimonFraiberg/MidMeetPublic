@@ -1,0 +1,129 @@
+.marker {
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 6vh; /* Set a fixed size */
+  height: 6vh;
+}
+
+.mapContainer div {
+  border-radius: 20px;
+}
+/* personStyle.css */
+.map {
+  height: 90vh;
+}
+.google-map {
+  justify-content: center;
+  padding: 15px;
+
+  height: 90vh;
+}
+.meetScreen {
+  width: 100vw;
+  min-height: auto;
+}
+.meetCard {
+  border: 0px;
+  margin: 10px;
+  top: 0;
+  left: 0;
+  width: 48vw;
+  height: 30vh;
+}
+.meetingButton {
+  width: 50px;
+  height: auto;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.meetings {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the handle */
+  border-radius: 10px; /* Rounded corners for the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+/* Corner of the scrollbar */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Color of the corner where the two scrollbars meet */
+}
+.add-calender {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.meetContainer {
+  position: relative;
+  top: 0;
+  width: 49.5vw;
+  max-height: 50vh;
+}
+.meeting-info {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.meetProfileImages {
+  width: 5vh;
+  height: 5vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.recommendation {
+  flex: none;
+  height: 80vh;
+}
+
+.meetInfo {
+  flex: none;
+  height: 20vh;
+}
+
+.participants-row {
+  width: 95%;
+  margin-left: 10px;
+  height: fit-content;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  margin-bottom: 15px;
+}
+
+.participants-row::-webkit-scrollbar {
+  height: 8px; /* Height of the scrollbar */
+}
+
+.participants-row::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color of the scrollbar */
+  border-radius: 10px;
+}

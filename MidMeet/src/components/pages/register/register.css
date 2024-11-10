@@ -1,0 +1,103 @@
+.registerButton {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10px;
+  height: 40px;
+  background: linear-gradient(45deg, #ff945f, #feb47b, #fed27b);
+  font-family: "Acme", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  border: #ff945f;
+}
+
+.registerButton:hover {
+  background: linear-gradient(45deg, #fed27b, #feb47b, #ff945f);
+}
+.error {
+  font-size: 12px;
+  margin: 2px;
+  padding: 2px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] ~ .error {
+  display: block;
+}
+
+.suggestions {
+  margin-left: 20px;
+}
+
+#image-label {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 7px rgba(105, 110, 232, 0.54);
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 15px;
+  user-select: none;
+  cursor: pointer;
+  color: #207ed1;
+  transition: all 1s;
+}
+#image-label:hover {
+  color: #18ac1c;
+}
+
+.field {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  width: 90%;
+  line-height: 1;
+  font-family: "Anek Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alert-danger {
+  padding-left: 3%;
+  padding-top: 1%;
+}
+
+.nameFields {
+  display: flex;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  gap: 16px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nameFields .name {
+  flex: 1; /* This makes both fields take equal space */
+}
+
+#toLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Average Sans";
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  color: #6049ef;
+  font-size: 18px;
+}

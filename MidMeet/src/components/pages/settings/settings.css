@@ -1,0 +1,39 @@
+.settingButton {
+  margin-top: 15px;
+}
+
+.settings-card {
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: 35vw;
+  height: 80vh;
+  min-height: fit-content;
+}
+
+.settings {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center;
+}
+.profilePictureSettings {
+  margin: 20px;
+}
+.location {
+  
+}
+.profilePictureSettings .profileImage {
+  width: 40vh;
+  height: 30vh;
+  margin: 20px;
+}
+
+.profilePictureSettings .form-floating {
+  padding: 10px;
+}
+
+.changeButton {
+  position: absolute;
+  -ms-transform: translateX(60%);
+  transform: translateX(60%);
+}

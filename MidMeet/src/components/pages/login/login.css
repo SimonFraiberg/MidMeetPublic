@@ -1,0 +1,46 @@
+.loginForm {
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 40%;
+  top: 10%;
+  left: 25%;
+}
+
+.loginButton {
+  width: 100%;
+  margin-top: 40px;
+  height: 60px;
+  background: linear-gradient(45deg, #ff945f, #feb47b, #fed27b);
+  font-family: "Acme", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+  border: #ff945f;
+  font-size: 20px;
+}
+
+.loginButton:hover {
+  background: linear-gradient(45deg, #fed27b, #feb47b, #ff945f);
+}
+
+.loginField {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+#toRegister {
+  display: inline;
+  left: 25px;
+  font-family: "Average Sans";
+  color: #6049ef;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.password-toggle-icon {
+  cursor: pointer; /* Show pointer cursor */
+  display: flex; /* Align the icon correctly */
+  align-items: center; /* Center the icon vertically */
+  color: rgb(68, 64, 64);
+}

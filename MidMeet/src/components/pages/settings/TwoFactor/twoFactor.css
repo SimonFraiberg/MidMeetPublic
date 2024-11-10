@@ -1,0 +1,55 @@
+.download-button-apple {
+  width: 150px;
+  margin: 5px;
+  height: auto;
+}
+
+.download-button-android {
+  width: 165px;
+  margin: 10px;
+  margin-right: 20px;
+
+  height: auto;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center;
+}
+
+.qr-title {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+}
+
+.auth-code-container {
+  width: 50px; /* Set the width of the squares */
+  height: 50px; /* Set the height of the squares */
+  margin: 5px; /* Space between the squares */
+  text-align: center; /* Center the input text */
+  font-size: 24px; /* Adjust the font size */
+  border: 2px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Optionally round the corners */
+  outline: none;
+}
+
+.auth-code-container:focus {
+  border-color: #ebcbae; /* Change border color on focus */
+}
+
+.custom-step {
+  flex: 1; /* Make each step take up equal space */
+}
+
+.custom-step .MuiStepLabel-labelContainer {
+  text-align: center; /* Center the label text */
+  width: 100%; /* Make sure the label container takes full width */
+}
+
+.custom-step .MuiStepLabel-root {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the label */
+}

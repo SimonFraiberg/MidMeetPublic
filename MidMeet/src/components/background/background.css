@@ -1,0 +1,46 @@
+#eclipse1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  fill: #efaa6b;
+  z-index: 100;
+}
+
+#eclipse2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  fill: #f3ba85;
+  z-index: 99;
+}
+
+#eclipse3 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  fill: #ebcbae;
+  z-index: 98;
+}
+#eclipse4 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  fill: #efaa6b;
+  z-index: 100;
+}
+
+#eclipse5 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  fill: #f3ba85;
+  z-index: 99;
+}
+
+#eclipse6 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  fill: #ebcbae;
+  z-index: 98;
+}

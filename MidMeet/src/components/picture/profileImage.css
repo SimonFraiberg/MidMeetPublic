@@ -1,0 +1,13 @@
+.profileImage {
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+
+  margin-top: 20px;
+  margin-left: 20px;
+
+  display: inline-block;
+  vertical-align: middle;
+}

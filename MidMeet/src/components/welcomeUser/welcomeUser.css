@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 40%;
+  top: 9%;
+}
+
+.gabriela-regular {
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+}
+
+.quizButton {
+  margin-left: 0px;
+  font-size: 14px;
+  background: linear-gradient(45deg, #ff945f, #feb47b, #fed27b);
+  border: #feb47b;
+}

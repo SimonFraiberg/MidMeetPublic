@@ -1,0 +1,20 @@
+.meetingTitle {
+  color: rgba(88, 43, 43, 0.833);
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.meetingText {
+  font-size: 16px;
+}
+.meetingContainer {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: border-color 0.1s ease, border-width 0.1s ease;
+}
+
+.meetingContainer:hover {
+  border-color: rgba(245, 197, 125, 0.9);
+  border-width: 5px;
+}
