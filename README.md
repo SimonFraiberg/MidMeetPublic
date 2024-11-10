@@ -5,6 +5,10 @@ MidMeet is a web application that suggests a convenient meeting location for use
 # Final Video
 https://www.youtube.com/watch?v=wy3WV5YO_AY
 
+# recommendation example
+![recommendation example](https://github.com/user-attachments/assets/9eb65ca5-5eaf-4f5d-b4a5-7454be465c3c)
+
+
 # Figma Design
 https://www.figma.com/design/t9FzLUccClHpoAcWw9knCw/MidMeet?node-id=0-1&t=GZ1vtBsbk72mMI8f-1
 
