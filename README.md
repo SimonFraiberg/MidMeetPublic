@@ -1,4 +1,4 @@
-# MidMeet
+# MidMeet by Amit Hazan & Simon Fraiberg.
 
 MidMeet is a web application that suggests a convenient meeting location for users based on their locations and preferences. The app leverages the Google Places API to provide recommendations for restaurants, activities, and more.
 
