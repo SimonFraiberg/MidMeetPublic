@@ -73,6 +73,7 @@ const login2FA = async (req, res) => {
       httpOnly: true,
       secure: true,
       sameSite: "None",
+      path: '/api/Tokens/refresh', // Restricts cookie to the refresh endpoint
       maxAge: 1 * 24 * 60 * 60 * 1000,
     });
     const returnUrl = req.query.returnUrl;
